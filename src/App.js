@@ -12,6 +12,7 @@ import {onAuthStateChanged} from "firebase/auth";
 import UpdateTask from './Routes/UpdateTask';
 import NoRoute from './Routes/NoRoute';
 import Welcome from './Components/Welcome';
+import DefaultRoute from './Routes/DefaultRoute';
 function App() {
   const firebase = useFirebase();
   useEffect(()=>{
@@ -26,7 +27,7 @@ function App() {
  },[]);
 
 
- 
+
   return (
      <div>
       <Navbar></Navbar>
@@ -38,7 +39,7 @@ function App() {
         {/* <Route path ='/UserHome' element={<UserHome></UserHome>}></Route> */}
         <Route path='/SignIn' element={<Signin></Signin>}></Route>
         <Route path='/SignUp' element={<Signup></Signup>}></Route>
-        <Route path='/' element={<Signin></Signin>}></Route>
+        <Route path='/' element={<DefaultRoute></DefaultRoute>}></Route>
         <Route paht='*' element={<NoRoute></NoRoute>}></Route>
       </Routes>
      </div>
