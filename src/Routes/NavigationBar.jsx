@@ -1,7 +1,7 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-
+import { NavLink } from 'react-router-dom';
 import { useFirebase } from '../Context/Firebase';
 
  
@@ -28,17 +28,17 @@ function NavigationBar() {
         {
            currentUser ? (
             <Nav>
-            <Nav.Link >{currentUser.email}</Nav.Link>
+            <NavLink style={{margin:'10px'}} >{currentUser.email}</NavLink>
+            <NavLink style={{margin:'10px'}} to="/SignIn"><span onClick={logoutHandler}>LogOut</span></NavLink>
+            {/* <Nav.Link >{currentUser.email}</Nav.Link>
             <Nav.Link eventKey={2} href="./SignIn">
-              <span onClick={logoutHandler}>LogOut</span>
-            </Nav.Link>
+            <span onClick={logoutHandler}>LogOut</span>
+            </Nav.Link> */}
           </Nav>
            ) : (
-<Nav>
-            <Nav.Link href="./SignIn">Login</Nav.Link>
-            <Nav.Link eventKey={2} href="./SignUp">
-              Register
-            </Nav.Link>
+        <Nav>    
+           <NavLink style={{margin:'10px'}} to="/SignIn">Login</NavLink>
+           <NavLink style={{margin:'10px'}} to="/SignUp">Register</NavLink>
              </Nav>
            )
 
