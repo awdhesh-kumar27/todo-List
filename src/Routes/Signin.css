@@ -1,0 +1,38 @@
+
+
+.login-div{
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+.login-form{
+   border: 2px solid black;
+   width: 350px;
+   display: flex;
+   flex-direction: column;
+   padding: 10px;
+   border-radius: 5px 5px;
+}
+
+
+.input-box{
+   width: 90%;
+   height: 25px;
+   margin-top: 5px;
+   margin-bottom: 10px ;
+}
+
+.submit-button{
+   width: 92%;
+   height: 35px;
+   color:white;
+   margin-top: 10px;
+   background-color: black;
+   cursor: pointer;
+   margin-bottom: 15px;
+}
+
+.heading{
+   font-family: cursive;
+}
+

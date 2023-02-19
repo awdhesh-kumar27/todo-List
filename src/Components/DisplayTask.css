@@ -1,0 +1,38 @@
+.task{
+    border: 2px solid black;
+    padding:10px;
+    background-color: rgb(235, 222, 135);
+    margin-left: 10%;
+    margin-right:10%;
+    margin-top:20px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+
+}
+.task div{
+    font-size: larger;
+    font-family: sans-serif;
+}
+
+.resize-img{
+    margin-left: 5px;
+}
+
+
+.task-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color:red;
+    font-family:cursive;
+}
+
+
+.description{
+    color:blue;
+    border-top: 2px solid green;
+    margin-top:2px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+

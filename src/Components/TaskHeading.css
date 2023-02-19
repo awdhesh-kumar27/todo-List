@@ -1,0 +1,12 @@
+.task-heading{
+    color:red;
+    background-color: rgb(8, 8, 8);
+    margin-left: 10%;
+    margin-right:10%;
+    margin-top:20px;
+    border: 2px solid black;
+    text-align: center;
+    font-family: cursive;
+}
+
+

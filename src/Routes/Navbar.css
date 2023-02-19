@@ -1,0 +1,22 @@
+/* .nav-bar{
+  
+    color:black;
+    background-color: burlywood;
+}
+
+.nav-bar-left{
+    display: flex;
+    flex-direction: row;
+}
+.nav-bar-left div{
+    padding:10px;
+}
+.nav-bar-right{
+    border:2px solid black;
+    width: 150px;
+    display: flex;
+     flex-direction: row-reverse;
+}
+.nav-bar-right div{
+    padding:10px;
+} */
