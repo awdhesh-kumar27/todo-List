@@ -35,8 +35,8 @@ function NavigationBar() {
           </Nav>
            ) : (
 <Nav>
-            <Nav.Link href="/SignIn">Login</Nav.Link>
-            <Nav.Link eventKey={2} href="/SignUp">
+            <Nav.Link href="SignIn">Login</Nav.Link>
+            <Nav.Link eventKey={2} href="SignUp">
               Register
             </Nav.Link>
              </Nav>
