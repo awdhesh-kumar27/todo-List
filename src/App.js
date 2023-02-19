@@ -25,6 +25,8 @@ function App() {
     console.log("executed");
  },[]);
 
+
+ 
   return (
      <div>
       <Navbar></Navbar>
