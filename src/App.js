@@ -37,8 +37,8 @@ function App() {
       <Route path ='/UserHome' element={<UserHome></UserHome>}></Route>
       <Route path='/updateTask/:taskId' element={<UpdateTask></UpdateTask>}></Route>
         {/* <Route path ='/UserHome' element={<UserHome></UserHome>}></Route> */}
-        <Route path='SignIn' element={<Signin></Signin>}></Route>
-        <Route path='SignUp' element={<Signup></Signup>}></Route>
+        <Route path='/SignIn' element={<Signin></Signin>}></Route>
+        <Route path='/SignUp' element={<Signup></Signup>}></Route>
         <Route path='/' element={<DefaultRoute></DefaultRoute>}></Route>
         <Route paht='*' element={<NoRoute></NoRoute>}></Route>
       </Routes>

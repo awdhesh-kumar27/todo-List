@@ -29,14 +29,14 @@ function NavigationBar() {
            currentUser ? (
             <Nav>
             <Nav.Link >{currentUser.email}</Nav.Link>
-            <Nav.Link eventKey={2} href="/SignIn">
+            <Nav.Link eventKey={2} href="./SignIn">
               <span onClick={logoutHandler}>LogOut</span>
             </Nav.Link>
           </Nav>
            ) : (
 <Nav>
-            <Nav.Link href="SignIn">Login</Nav.Link>
-            <Nav.Link eventKey={2} href="SignUp">
+            <Nav.Link href="./SignIn">Login</Nav.Link>
+            <Nav.Link eventKey={2} href="./SignUp">
               Register
             </Nav.Link>
              </Nav>
