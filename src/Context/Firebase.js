@@ -8,13 +8,13 @@ import {deleteDoc,updateDoc,query,where,getDocs,orderBy,doc,getDoc} from "fireba
 const  FirebaseContext = createContext(null);
 
 const firebaseConfig = {
-    apiKey: "AIzaSyBREuP2OO1UwHmiMEb_4Vjm2tYs2hBRPKw",
-    authDomain: "todo-list-a1b58.firebaseapp.com",
-    projectId: "todo-list-a1b58",
-    storageBucket: "todo-list-a1b58.appspot.com",
-    messagingSenderId: "75717516397",
-    appId: "1:75717516397:web:190e24df9127496df9f364",
-    measurementId: "G-68CGYLVNN1"
+    apiKey: "AIzaSyDUmNZ85_VGxVhMR3_mRq7R8uSf7th6YUc",
+    authDomain: "new-todo-eb347.firebaseapp.com",
+    projectId: "new-todo-eb347",
+    storageBucket: "new-todo-eb347.appspot.com",
+    messagingSenderId: "170958357728",
+    appId: "1:170958357728:web:7343d9f84a6c6cfaf27c85",
+     measurementId: "G-TL6ZNL39DF"
   };
   
   

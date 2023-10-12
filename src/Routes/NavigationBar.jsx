@@ -12,6 +12,7 @@ function NavigationBar() {
   
     const logoutHandler = () =>{
         Firebase.userLogout();
+
     }
 
     
